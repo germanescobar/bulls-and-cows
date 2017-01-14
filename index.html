@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Picas y Fijas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Picas y Fijas</h1>
+  <div class="input">
+    <p>Ingresa <span class="instructions">cuatro dígitos diferentes</span> y oprime Enter:</p>
+    <input type="number" id="digits" autofocus>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Número</th>
+        <th>Picas</th>
+        <th>Fijas</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <div class="overlay">
+    <div class="win">¡Ganaste!</div>
+    <button class="close">Jugar Nuevamente</button>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
